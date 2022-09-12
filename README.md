@@ -1,3 +1,5 @@
+<img src="./assets/20210324092503412.png" alt="20210324092503412" style="zoom:50%;" />
+
 # GSoC 2022 Final Report
 
 ## Introduction
@@ -14,7 +16,7 @@
 
 ![image-20220912165805300](./assets/image-20220912165805300.png)
 
-<center>Support for Columnstore JSON functions</center>
+<center> Support for Columnstore JSON functions
 
 The JSON functions I need to implement: [Full List](https://mariadb.com/kb/en/json-functions/) **(34 functions)**
 
@@ -52,7 +54,7 @@ During GSoC development, not only did I complete functional development such as 
 | **Boolean Adaptation** - Adapted for JSON and MariaDB Boolean incompatibility issues | Boolean **fully** compatible                      |
 | **RAII Encapsulation** - Use Exception, RAII and other features to encapsulate code | Stronger **exception-safe** and **resource-safe** |
 | **Constant Cache** -  Cache constants such as json path during function execution | **Greatly improves** efficiency of functions      |
-| **SQL Test **- Use the `Mysql-test-run` test framework to write test cases | Test coverage rate reaches **90%**                |
+| **SQL Test ** - Use the `Mysql-test-run` test framework to write test cases | Test coverage rate reaches **90%**                |
 
 Also, during development, I submitted **3 additional patches** to [MariaDB/Server](https://github.com/MariaDB/server) that have been merged so far:
 
