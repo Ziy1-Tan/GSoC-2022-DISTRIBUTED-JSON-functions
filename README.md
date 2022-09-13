@@ -39,7 +39,7 @@ The development of JSON functions will follow test-driven development (TDD), tes
 - Run `func_json_valid.test` to ensure that the `JSON_VALID` function behaves as expected
 
 <div align="center">
-    <img width=50%
+    <img width=30%
     src="./assets/image-20220913155407425.png" />
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
